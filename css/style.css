@@ -84,3 +84,39 @@ img {
     height: auto;
     width: 260px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 48px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-basis: 120px;
+}
+
+.info-content-box div {
+    text-align: center;
+}
+
+.box {
+    flex-basis: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+}
