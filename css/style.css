@@ -184,3 +184,16 @@ img {
     border-radius: 6px;
     flex-basis: 120px;
 }
+
+.footer-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.footer-text {
+    color: #f9faf8;
+    text-align: center;
+}
