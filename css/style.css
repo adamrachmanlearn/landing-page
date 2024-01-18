@@ -130,7 +130,7 @@ img {
 }
 
 .quote-container {
-    flex-basis: 500px;
+    flex-basis: 700px;
 }
 
 .quote-content {
@@ -144,4 +144,43 @@ img {
     margin-top: 16px;
     text-align: right;
     font-weight: 900;
+}
+
+.action-section {
+    padding: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    border-radius: 8px;
+    padding: 16px 32px;
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    flex-basis: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text-secondary {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+
+.signup {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 4px 16px;
+    border: 1px solid #f9faf8;
+    font-weight: bold;
+    border-radius: 6px;
+    flex-basis: 120px;
 }
